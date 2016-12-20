@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		007F39A6B0CD3E13308BBE48AF2A6472 /* Pods-MPTextFieldPods_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4C7AD3F29711951436156FB96B54BD /* Pods-MPTextFieldPods_Tests-dummy.m */; };
+		1515AAF1AA0AD00EBC0B0AE715EEAAE9 /* MPTextFieldPods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E606E0F9F2F05CB3A5A5E652FCC72BC /* MPTextFieldPods-dummy.m */; };
+		2634D6B96718FF1D0EFCE8B57ACA71DA /* Pods-MPTextFieldPods_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9EBCB9E6599B77953923DB4ECB7538 /* Pods-MPTextFieldPods_Example-dummy.m */; };
+		4F08137F72D9D235A0E187A968D79397 /* Pods-MPTextFieldPods_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE5E944424113A9674E4A8A1D0DCB181 /* Pods-MPTextFieldPods_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		695F40BEE8210EE839FBCBA501549CC5 /* MPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09606E2CFA37AB1F1AC3FDB89435D6F4 /* MPTextField.swift */; };
+		6B4919137E05B8D16002015FF99F53D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		796376234B1410F4D2B68630094D4F51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		86B42023AF72AFB1BE2FE976F9D8003B /* MPTextFieldPods.swift in Sources */ = {isa = PBXBuildFile; fileRef = D144FE984A2065499807421D5D53D8C3 /* MPTextFieldPods.swift */; };
+		B78F834248BB9BF16E40D1A2E19E4C1E /* MPTextFieldPods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1F074B3028080371C18BA6EF565254 /* MPTextFieldPods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6A6E6B5FCC665DCB21697A92FEA2A93 /* Pods-MPTextFieldPods_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BDFA5D6A05C3A38AB51FF9CDCE81849 /* Pods-MPTextFieldPods_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F19BEFB1958521CAC950B44237476F8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02959867E964520B0AC94932C5DB8D96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 033BB83B0A03F760EAE83E81D2EFA424;
+			remoteInfo = MPTextFieldPods;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		038C59027E7DF3655823C76FB86CBE66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09606E2CFA37AB1F1AC3FDB89435D6F4 /* MPTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MPTextField.swift; sourceTree = "<group>"; };
+		111EF4D6B821C32F4161115C692074DD /* Pods-MPTextFieldPods_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MPTextFieldPods_Example.modulemap"; sourceTree = "<group>"; };
+		15D0C214DF6B10944FC54F5A5276B3AE /* Pods-MPTextFieldPods_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPTextFieldPods_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1C1F074B3028080371C18BA6EF565254 /* MPTextFieldPods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPTextFieldPods-umbrella.h"; sourceTree = "<group>"; };
+		2971912BDC66FA94D65CFBB10B6B0236 /* Pods-MPTextFieldPods_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MPTextFieldPods_Tests.modulemap"; sourceTree = "<group>"; };
+		30595377CB12DDF3ABC736FA52F76B97 /* Pods-MPTextFieldPods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPTextFieldPods_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		35461BBBB2F374A4366ABD54891C0622 /* Pods_MPTextFieldPods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPTextFieldPods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B51B3416336CE104B35C7A321FA340E /* Pods-MPTextFieldPods_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPTextFieldPods_Example-frameworks.sh"; sourceTree = "<group>"; };
+		46385C5C50FBFB631A3EBEB29A9CEE81 /* Pods_MPTextFieldPods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPTextFieldPods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		507B072707AFAB63845057B1B9B7D75B /* MPTextFieldPods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MPTextFieldPods.modulemap; sourceTree = "<group>"; };
+		5E606E0F9F2F05CB3A5A5E652FCC72BC /* MPTextFieldPods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPTextFieldPods-dummy.m"; sourceTree = "<group>"; };
+		60981D8ECFE3835F02EEA54340D4C48B /* MPTextFieldPods-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPTextFieldPods-prefix.pch"; sourceTree = "<group>"; };
+		6A63B33E0F68DD931797D8A20BC46579 /* Pods-MPTextFieldPods_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPTextFieldPods_Example-resources.sh"; sourceTree = "<group>"; };
+		6B4C7AD3F29711951436156FB96B54BD /* Pods-MPTextFieldPods_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MPTextFieldPods_Tests-dummy.m"; sourceTree = "<group>"; };
+		6EBBABFE6134160A167E3E693573E693 /* Pods-MPTextFieldPods_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPTextFieldPods_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		76C7AAE5D6325D461350965D364F4D06 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E9EBCB9E6599B77953923DB4ECB7538 /* Pods-MPTextFieldPods_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MPTextFieldPods_Example-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99F1B1E16FD73CF35C816BAD6585F5EE /* Pods-MPTextFieldPods_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MPTextFieldPods_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9BDFA5D6A05C3A38AB51FF9CDCE81849 /* Pods-MPTextFieldPods_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MPTextFieldPods_Example-umbrella.h"; sourceTree = "<group>"; };
+		A2ACF5F1D1484841CB535DD65700AA2E /* MPTextFieldPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MPTextFieldPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B335876053D599E0307BB74C6F53F719 /* Pods-MPTextFieldPods_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPTextFieldPods_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B40791C932E7404BE3A43B374E82DEAA /* Pods-MPTextFieldPods_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MPTextFieldPods_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA3725C4F4180A8E78C88B44A76CAB2F /* Pods-MPTextFieldPods_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPTextFieldPods_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C0A0A5773A2EB2AF115D9124BA1C9386 /* MPTextFieldPods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPTextFieldPods.xcconfig; sourceTree = "<group>"; };
+		CAEBCD2440382ACDE68A2B9804CF5C90 /* Pods-MPTextFieldPods_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPTextFieldPods_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CE5E944424113A9674E4A8A1D0DCB181 /* Pods-MPTextFieldPods_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MPTextFieldPods_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D144FE984A2065499807421D5D53D8C3 /* MPTextFieldPods.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MPTextFieldPods.swift; sourceTree = "<group>"; };
+		D37F25E1A256F5EABE19530AC536A6CB /* Pods-MPTextFieldPods_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPTextFieldPods_Tests-resources.sh"; sourceTree = "<group>"; };
+		EF473FCA42BEFBDA3139E9725E33C78F /* Pods-MPTextFieldPods_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPTextFieldPods_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FEE499914AF6907D29150EA2AB7EAF4A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18AC953CB3C05DC49429631CEEB0F1F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19BEFB1958521CAC950B44237476F8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2259CA919B036C225386079FFB8D0C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796376234B1410F4D2B68630094D4F51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62B3968DD3484500B69E55DC7D35EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B4919137E05B8D16002015FF99F53D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D18BCEE1753C73E4D4E018E59DFCFDB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				09606E2CFA37AB1F1AC3FDB89435D6F4 /* MPTextField.swift */,
+				D144FE984A2065499807421D5D53D8C3 /* MPTextFieldPods.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3DF635C214122792F2E7FA2B0A8A79A6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				038C59027E7DF3655823C76FB86CBE66 /* Info.plist */,
+				507B072707AFAB63845057B1B9B7D75B /* MPTextFieldPods.modulemap */,
+				C0A0A5773A2EB2AF115D9124BA1C9386 /* MPTextFieldPods.xcconfig */,
+				5E606E0F9F2F05CB3A5A5E652FCC72BC /* MPTextFieldPods-dummy.m */,
+				60981D8ECFE3835F02EEA54340D4C48B /* MPTextFieldPods-prefix.pch */,
+				1C1F074B3028080371C18BA6EF565254 /* MPTextFieldPods-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MPTextFieldPods";
+			sourceTree = "<group>";
+		};
+		59C11531E8110E02CB9599D41233548C /* MPTextFieldPods */ = {
+			isa = PBXGroup;
+			children = (
+				1D18BCEE1753C73E4D4E018E59DFCFDB /* Classes */,
+			);
+			path = MPTextFieldPods;
+			sourceTree = "<group>";
+		};
+		6D853FDC327CACDB214A7D15ABEBA454 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2ACF5F1D1484841CB535DD65700AA2E /* MPTextFieldPods.framework */,
+				46385C5C50FBFB631A3EBEB29A9CEE81 /* Pods_MPTextFieldPods_Example.framework */,
+				35461BBBB2F374A4366ABD54891C0622 /* Pods_MPTextFieldPods_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FDCDE364A81F946CB9CD5C8DE0F68665 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6D853FDC327CACDB214A7D15ABEBA454 /* Products */,
+				88B9D4EDE7D24E7625FAC2A515F9D4E7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		88B9D4EDE7D24E7625FAC2A515F9D4E7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A99F1587D49E1578DBD75A2191B372FC /* Pods-MPTextFieldPods_Example */,
+				CDC686A79FBAC383418F5917AD495EFA /* Pods-MPTextFieldPods_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A99F1587D49E1578DBD75A2191B372FC /* Pods-MPTextFieldPods_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FEE499914AF6907D29150EA2AB7EAF4A /* Info.plist */,
+				111EF4D6B821C32F4161115C692074DD /* Pods-MPTextFieldPods_Example.modulemap */,
+				B40791C932E7404BE3A43B374E82DEAA /* Pods-MPTextFieldPods_Example-acknowledgements.markdown */,
+				BA3725C4F4180A8E78C88B44A76CAB2F /* Pods-MPTextFieldPods_Example-acknowledgements.plist */,
+				8E9EBCB9E6599B77953923DB4ECB7538 /* Pods-MPTextFieldPods_Example-dummy.m */,
+				3B51B3416336CE104B35C7A321FA340E /* Pods-MPTextFieldPods_Example-frameworks.sh */,
+				6A63B33E0F68DD931797D8A20BC46579 /* Pods-MPTextFieldPods_Example-resources.sh */,
+				9BDFA5D6A05C3A38AB51FF9CDCE81849 /* Pods-MPTextFieldPods_Example-umbrella.h */,
+				CAEBCD2440382ACDE68A2B9804CF5C90 /* Pods-MPTextFieldPods_Example.debug.xcconfig */,
+				15D0C214DF6B10944FC54F5A5276B3AE /* Pods-MPTextFieldPods_Example.release.xcconfig */,
+			);
+			name = "Pods-MPTextFieldPods_Example";
+			path = "Target Support Files/Pods-MPTextFieldPods_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDC686A79FBAC383418F5917AD495EFA /* Pods-MPTextFieldPods_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				76C7AAE5D6325D461350965D364F4D06 /* Info.plist */,
+				2971912BDC66FA94D65CFBB10B6B0236 /* Pods-MPTextFieldPods_Tests.modulemap */,
+				99F1B1E16FD73CF35C816BAD6585F5EE /* Pods-MPTextFieldPods_Tests-acknowledgements.markdown */,
+				6EBBABFE6134160A167E3E693573E693 /* Pods-MPTextFieldPods_Tests-acknowledgements.plist */,
+				6B4C7AD3F29711951436156FB96B54BD /* Pods-MPTextFieldPods_Tests-dummy.m */,
+				EF473FCA42BEFBDA3139E9725E33C78F /* Pods-MPTextFieldPods_Tests-frameworks.sh */,
+				D37F25E1A256F5EABE19530AC536A6CB /* Pods-MPTextFieldPods_Tests-resources.sh */,
+				CE5E944424113A9674E4A8A1D0DCB181 /* Pods-MPTextFieldPods_Tests-umbrella.h */,
+				B335876053D599E0307BB74C6F53F719 /* Pods-MPTextFieldPods_Tests.debug.xcconfig */,
+				30595377CB12DDF3ABC736FA52F76B97 /* Pods-MPTextFieldPods_Tests.release.xcconfig */,
+			);
+			name = "Pods-MPTextFieldPods_Tests";
+			path = "Target Support Files/Pods-MPTextFieldPods_Tests";
+			sourceTree = "<group>";
+		};
+		DE5AEEA11FF1224CD72184BE46B36C21 /* MPTextFieldPods */ = {
+			isa = PBXGroup;
+			children = (
+				59C11531E8110E02CB9599D41233548C /* MPTextFieldPods */,
+				3DF635C214122792F2E7FA2B0A8A79A6 /* Support Files */,
+			);
+			name = MPTextFieldPods;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FDCDE364A81F946CB9CD5C8DE0F68665 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE5AEEA11FF1224CD72184BE46B36C21 /* MPTextFieldPods */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7648ED97A213D897156D20E1F9AA8B7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78F834248BB9BF16E40D1A2E19E4C1E /* MPTextFieldPods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EF6EB3AC411DFFD0CB0541FADA61B5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A6E6B5FCC665DCB21697A92FEA2A93 /* Pods-MPTextFieldPods_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E182F61105E01AC597155438B1014C92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F08137F72D9D235A0E187A968D79397 /* Pods-MPTextFieldPods_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		033BB83B0A03F760EAE83E81D2EFA424 /* MPTextFieldPods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32960961594B34AEBC6DD9C8EDDCE30D /* Build configuration list for PBXNativeTarget "MPTextFieldPods" */;
+			buildPhases = (
+				44E577F0A3EE830849E440A641E6C250 /* Sources */,
+				18AC953CB3C05DC49429631CEEB0F1F1 /* Frameworks */,
+				7648ED97A213D897156D20E1F9AA8B7E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MPTextFieldPods;
+			productName = MPTextFieldPods;
+			productReference = A2ACF5F1D1484841CB535DD65700AA2E /* MPTextFieldPods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2954258E640B4ADE34FDF29E34D41E11 /* Pods-MPTextFieldPods_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 807631855EAD53EDAAC27B6750625628 /* Build configuration list for PBXNativeTarget "Pods-MPTextFieldPods_Example" */;
+			buildPhases = (
+				1F2B7DA45899B0AD82C01E788AC57904 /* Sources */,
+				F62B3968DD3484500B69E55DC7D35EE2 /* Frameworks */,
+				9EF6EB3AC411DFFD0CB0541FADA61B5D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9357DE9CC2E29C8D723A57B700E5665 /* PBXTargetDependency */,
+			);
+			name = "Pods-MPTextFieldPods_Example";
+			productName = "Pods-MPTextFieldPods_Example";
+			productReference = 46385C5C50FBFB631A3EBEB29A9CEE81 /* Pods_MPTextFieldPods_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6FEEDF0686BA7A6C67C7F5DF6EFF4B1C /* Pods-MPTextFieldPods_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE9E9294BD483A5DA5ACCA5D57649F48 /* Build configuration list for PBXNativeTarget "Pods-MPTextFieldPods_Tests" */;
+			buildPhases = (
+				E9440064CA1FCFA97A794463B5B0DB4D /* Sources */,
+				2259CA919B036C225386079FFB8D0C64 /* Frameworks */,
+				E182F61105E01AC597155438B1014C92 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MPTextFieldPods_Tests";
+			productName = "Pods-MPTextFieldPods_Tests";
+			productReference = 35461BBBB2F374A4366ABD54891C0622 /* Pods_MPTextFieldPods_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6D853FDC327CACDB214A7D15ABEBA454 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				033BB83B0A03F760EAE83E81D2EFA424 /* MPTextFieldPods */,
+				2954258E640B4ADE34FDF29E34D41E11 /* Pods-MPTextFieldPods_Example */,
+				6FEEDF0686BA7A6C67C7F5DF6EFF4B1C /* Pods-MPTextFieldPods_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F2B7DA45899B0AD82C01E788AC57904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2634D6B96718FF1D0EFCE8B57ACA71DA /* Pods-MPTextFieldPods_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E577F0A3EE830849E440A641E6C250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695F40BEE8210EE839FBCBA501549CC5 /* MPTextField.swift in Sources */,
+				1515AAF1AA0AD00EBC0B0AE715EEAAE9 /* MPTextFieldPods-dummy.m in Sources */,
+				86B42023AF72AFB1BE2FE976F9D8003B /* MPTextFieldPods.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9440064CA1FCFA97A794463B5B0DB4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007F39A6B0CD3E13308BBE48AF2A6472 /* Pods-MPTextFieldPods_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9357DE9CC2E29C8D723A57B700E5665 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MPTextFieldPods;
+			target = 033BB83B0A03F760EAE83E81D2EFA424 /* MPTextFieldPods */;
+			targetProxy = 02959867E964520B0AC94932C5DB8D96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		343AA96C425C6FAFBD1948D1B55B6CA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30595377CB12DDF3ABC736FA52F76B97 /* Pods-MPTextFieldPods_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MPTextFieldPods_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPTextFieldPods_Tests/Pods-MPTextFieldPods_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MPTextFieldPods_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3769A2FF5AAA6473DB78A2E791DA0005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0A0A5773A2EB2AF115D9124BA1C9386 /* MPTextFieldPods.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MPTextFieldPods/MPTextFieldPods-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MPTextFieldPods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MPTextFieldPods/MPTextFieldPods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MPTextFieldPods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4481A832BB56AA0DCA1869A8DA4C09AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B335876053D599E0307BB74C6F53F719 /* Pods-MPTextFieldPods_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MPTextFieldPods_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPTextFieldPods_Tests/Pods-MPTextFieldPods_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MPTextFieldPods_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0ED4C53655DBAB7F233C6D14DF975FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0A0A5773A2EB2AF115D9124BA1C9386 /* MPTextFieldPods.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MPTextFieldPods/MPTextFieldPods-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MPTextFieldPods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MPTextFieldPods/MPTextFieldPods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MPTextFieldPods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0EB9D76CC838DD24F8A14E1653D1404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAEBCD2440382ACDE68A2B9804CF5C90 /* Pods-MPTextFieldPods_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MPTextFieldPods_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPTextFieldPods_Example/Pods-MPTextFieldPods_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MPTextFieldPods_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA1C1E4E201AF2C4BECD882F707255AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D0C214DF6B10944FC54F5A5276B3AE /* Pods-MPTextFieldPods_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MPTextFieldPods_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPTextFieldPods_Example/Pods-MPTextFieldPods_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MPTextFieldPods_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32960961594B34AEBC6DD9C8EDDCE30D /* Build configuration list for PBXNativeTarget "MPTextFieldPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0ED4C53655DBAB7F233C6D14DF975FA /* Debug */,
+				3769A2FF5AAA6473DB78A2E791DA0005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		807631855EAD53EDAAC27B6750625628 /* Build configuration list for PBXNativeTarget "Pods-MPTextFieldPods_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0EB9D76CC838DD24F8A14E1653D1404 /* Debug */,
+				CA1C1E4E201AF2C4BECD882F707255AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE9E9294BD483A5DA5ACCA5D57649F48 /* Build configuration list for PBXNativeTarget "Pods-MPTextFieldPods_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4481A832BB56AA0DCA1869A8DA4C09AB /* Debug */,
+				343AA96C425C6FAFBD1948D1B55B6CA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

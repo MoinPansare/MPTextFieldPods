@@ -1,0 +1,16 @@
+PODS:
+  - MPTextFieldPods (0.1.0)
+
+DEPENDENCIES:
+  - MPTextFieldPods (from `../`)
+
+EXTERNAL SOURCES:
+  MPTextFieldPods:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MPTextFieldPods: 09aa6bab191ee3b0a41f362c21ae12a119dca452
+
+PODFILE CHECKSUM: e299a3e245ef409cf861e7784d40e002a03b17a4
+
+COCOAPODS: 1.0.0

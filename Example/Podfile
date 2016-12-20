@@ -1,11 +1,10 @@
 use_frameworks!
 
 target 'MPTextFieldPods_Example' do
-  pod 'MPTextFieldPods', :path => '../'
-
-  target 'MPTextFieldPods_Tests' do
-    inherit! :search_paths
-
+    pod 'MPTextFieldPods', :path => '../'
     
-  end
+    target 'MPTextFieldPods_Tests' do
+        inherit! :search_paths
+        
+    end
 end

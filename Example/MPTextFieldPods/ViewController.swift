@@ -7,18 +7,25 @@
 //
 
 import UIKit
+import MPTextFieldPods
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController,UITextFieldDelegate {
+    
+    @IBOutlet var myTextField: MPTextFieldPods!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.myTextField.delegate = self
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    func textFieldDidBeginEditing(textField: UITextField) {
+        myTextField.shake()
+    }
+    
 }
+
 

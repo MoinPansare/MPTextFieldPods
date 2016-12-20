@@ -1,0 +1,6 @@
+framework module Pods_MPTextFieldPods_Example {
+  umbrella header "Pods-MPTextFieldPods_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
